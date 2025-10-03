@@ -8,7 +8,7 @@ def add_numbers(a, b):
 
 # Main execution
 if __name__ == "__main__":
-    print(greet("Kaustubh"))
+    print(greet("hardik"))
     
     num1 = 10
     num2 = 20
