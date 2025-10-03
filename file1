@@ -1,0 +1,12 @@
+# Python program to find the squares of numbers in a list
+
+def calculate_squares(numbers):
+    squares = []
+    for num in numbers:
+        squares.append(num ** 2)
+    return squares
+
+if __name__ == "__main__":
+    numbers = [1, 2, 3, 4, 5]
+    print("Original numbers:", numbers)
+    print("Squares:", calculate_squares(numbers))
